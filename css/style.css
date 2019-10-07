@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap')
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.banner-section{
+	background-image: url(../images/Eudora-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+.navbar{
+	background-color: #0c070575;
+    background-blend-mode: multiply;
+}
+.eudora{
+
+    font-size: 4em !important;
+    color: #E59205 !important;
+    text-transform: capitalize !important;
+    font-weight: 500 !important;
+}
+.navbar-light .navbar-nav .nav-link{
+	padding: 0px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #E59205 ;
+}
+.nav-link a:hover {
+    /* color: #0056b3; */
+    /* text-decoration: underline; */
+}
+.heading-section{
+	padding: 8em 0;
+}
+.header-text{
+    text-align: center;
+    color: #fff;
+}
+.header-text h1{
+
+    font-size: 46px;
+    font-style: italic;
+}
+.header-text p{
+	    font-size: 18px;
+    padding-top: 20px;
+    line-height: 2;
+}
+.btn-custom{
+	margin-top: 25px;
+	background-color:transparent;
+	color: #fff;
+	padding-right: 35px;
+	padding-left: 35px;
+	font-size: 16px;
+	text-transform: capitalize;
+	border: 1px solid #fff;
+}
+.btn-custom:hover{
+	background-color: #E59205;
+	border: 0;
+	border-radius: 0 !important;
+	border: 1px solid transparent;
+}
+.content-section{
+	padding: 100px 0;
+}
+.content-text{
+	text-align: center;
+}
+.content-text h1{
+	color: #6E7498;
+	font-size: 46px;
+    font-style: italic;
+}
+.content-text p{
+	color: #B3B6C7;
+	font-size: 18px;
+    line-height: 2;
+    padding: 35px 0;
+}
+.btn-cust{
+	background-color: #FFF;
+	color: #6E7498;
+	border: 1px solid #6E7498;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.btn-cust:hover{
+	background-color: #E59205;
+	border: 0;
+	border-radius: 0 !important;
+	border: 1px solid transparent;
+}
+.nav{
+	
+}
+.nav li{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.container .box-pos{
+	   position: relative;
+    overflow: hidden;
+}
+.container .box-cont{
+	position: absolute;
+    bottom: 0;
+    background: #ff000073;
+    width: 100%;
+    height: 95px;
+}
+.banner-two{
+	display: hidden;
+}
+.banner-two-text{
+    background-color: #E59204;
+    padding-right: 0;
+}
+.banner-two-text h1{
+
+    padding-top: 100px;
+    min-height: 50vh;
+    max-width: 200px;
+    margin: auto;
+    text-align: left;
+    font-style: italic;
+}
+.ban-two{
+    background-image: url(../images/Eudora-food.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    padding-left: 0;
+}
+.food-item{
+	padding-bottom: 100px;
+	text-align: center;
+}
+.food-img{}
+.btn-custo{
+	background-color: #FFF;
+	color: #6E7498;
+	border: 1px solid #6E7498;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.btn-custo:hover{
+	background-color: #E59205;
+	border: 0;
+	border-radius: 0 !important;
+	border: 1px solid transparent;
+}
+.pad{
+	padding-top: 35px;
+}
+.meats{
+	text-align: center;
+	margin-bottom: 100px;
+	color: #6E7498;
+}
+.meats img{
+	min-width: 70px;
+	max-height: 70px;
+}
+.meats h3{
+	padding: 20px 0;
+}
+.meats p{
+	font-size: 14px;
+	max-width: 300px;
+	margin: auto;
+	line-height: 2;
+}
+.banner-three{
+	background-image: url(../images/edora-second.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-three{
+	color: #fff;
+}
+.newsleter{
+	padding: 100px 0;
+	text-align: center;
+}
+.newsleter h1{
+    font-size: 46px;
+    font-weight: 300;
+}
+.form-part{
+	padding: 35px 0;
+}
+input{
+	max-width: 70%;
+	margin: auto;
+	background-color: transparent;
+	
+}
+.form-control {
+    font-weight: 600 !important;
+    border: 1px solid #fff !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    color: #fff !important;
+    text-align: center;
+}
+.footer-part{
+	padding: 25px 0;
+	background-color: #fff;
+	color: gray;
+}
+.footer-part p{
+font-size: 12px;
+    font-weight: 600;
+    color: #807777;
+    }
+.nav{
+	justify-content: flex-end;
+}
+.nav li{
+	    padding: 0 !important;
+    margin: 0 !important;
+    padding-left: 20px !important;
+}
+.nav li a{
+
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none!important;
+    color: #807777 !important;
+}
+.btn-custom{
+	animation-name: up-down;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes up-down{
+	0%{
+		transform: translateY();
+	}
+	50%{
+		transform: translateY(10px);
+	}
+	100%{}
+}
